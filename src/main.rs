@@ -34,6 +34,6 @@ struct StatusResponse {
 fn get_status() {
     match reqwest::blocking::get("https://admin.dumbdogdiner.com") {
         Ok(resp) => println!("{:?}", resp),
-        Err(_) => panic!("failed to fetch server status")
+        Err(_) => panic!("failed to fetch server status"),
     };
 }
