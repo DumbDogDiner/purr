@@ -10,5 +10,6 @@ edition = "2018"
 clap = "~2.33"
 config = "0.10"
 cursive = { version = "0.15", features = ["toml"] }
-reqwest = { version = "0.10", features = ["blocking", "json"] }
+lazy_static = "1.4.0"
+reqwest = { version = "0.11.0", features = ["blocking", "json"] }
 serde = { version = "1.0.118", features = ["derive"] }

@@ -1,5 +1,5 @@
 use std::error::Error;
-use serde::{Deserialize, Debug}
+use serde::{Deserialize, Debug};
 
 #[derive(Deserialize, Debug)]
 pub struct SftpDetails {
